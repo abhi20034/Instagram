@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+}
+#input{
+    width: 350px;
+    height: 570px;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 3px;
+}
+#image{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+#abc{
+    text-align: center;
+    padding: 5%;
+}
+#data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    margin-left:37px;
+}
+.btn{
+    background-color: #17A9FD;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    width: 75%;
+    margin: 3%;
+    padding: 2%;
+    margin-left: 13%;
+}
+.btn:hover{
+    background-color: #455bca;
+    cursor: pointer;
+}
+input[type="text"],input[type="password"]{
+    padding: 2%;
+    width: 75%;
+    margin: 1%;
+}
+#infor{
+    font-size: 11px;
+}
+a{
+    text-decoration: none;
+}
+.have{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;  
+    border: 1px solid rgb(195, 195, 195);
+    width: 350px;
+    height: 70px;
+}
+#ooo{
+    margin-top: 1%;
+}
+#app{
+    margin-top: 5%;
+    margin-right: 5%;
+}
+#links{
+    text-align: center;
+    font-size: smaller;
+    color: rgb(57, 56, 56);
+}
+.www{
+    color: rgb(57, 56, 56);
+}
